@@ -39,21 +39,4 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Ignorar archivos de salida de Tailwind y build
-/src/output.css
-/dist
 
-# Entorno Virtual de Python (Pyenv o Venv)
-venv/
-.venv/
-__pycache__/
-*.pyc
-
-# Archivos de configuración de Pyenv/Pip
-pip.conf
-pyenv.cfg
-state.json
-
-# Archivos de logs y bases de datos
-*.log
-*.sqlite
