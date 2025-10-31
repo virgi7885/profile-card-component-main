@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf") format("woff2");
+}
+
+@theme {
+  --color-primary-blue: hsl(185, 75%, 39%);
+  --color-primary-navy: hsl(229, 23%, 23%);
+  --color-primary-gray: hsl(227, 10%, 46%);
+  --color-neutral-gray: hsl(225, 10%, 92%);
+
+  --font-kumbh-sans: 'Kumbh Sans';
+
+  --background-image-hero-patterns: url('../assets/images/bg-pattern-top.svg'), url('../assets/images/bg-pattern-bottom.svg');
+  --background-repeat-hero-patterns: no-repeat, no-repeat;
+  --background-position-hero-patterns: right 38vw bottom 50vh, left 50vw top 40vh;
+  --background-size-hero-patterns: 970px 970px, 970px 970px;
+}
